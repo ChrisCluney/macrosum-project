@@ -1,18 +1,26 @@
 {
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  },
   "name": "chriscluney_project",
+  "description": "__________",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
     "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisCluney/macrosum-project.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "axios": "^0.26.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.3"
-  }
+  "bugs": {
+    "url": "https://github.com/ChrisCluney/macrosum-project/issues"
+  },
+  "homepage": "https://github.com/ChrisCluney/macrosum-project#readme"
 }
