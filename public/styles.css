@@ -1,440 +1,385 @@
-
-*{
+* {
   color: black;
   font-size: 400;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-
-    
+  font-family: "Montserrat", sans-serif;
 }
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
-.activityList{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
-    color: black;
+.activityList {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  color: black;
 }
-body{
-
-    
-    background-color: white;
-    overflow-x: hidden;
-
-
-
-    
+body {
+  background-color: white;
+  overflow-x: hidden;
 }
-a{
-    color: #3a0ba2;
-    font-size: 18px;
+a {
+  color: #3a0ba2;
+  font-size: 18px;
 }
-h1{
-    color: lightgray;
-    font-size: 72px;
-    text-shadow: 1px 1px 1px rgb(94, 94, 94);
-    font-family: 'Montserrat', sans-serif;
+h1 {
+  color: lightgray;
+  font-size: 72px;
+  text-shadow: 1px 1px 1px rgb(94, 94, 94);
+  font-family: "Montserrat", sans-serif;
 }
 
-h3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: xx-large;
-    font-weight: bold;
-    color: #3a0ba2;
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+  color: #3a0ba2;
 }
-p{
-    font-size: 30px;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    color: #3a0ba2;
-    
+p {
+  font-size: 30px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  color: #3a0ba2;
 }
 
 button {
-    cursor: pointer;
-    background-color: darkgrey;
-    color: #3a0ba2;
-    padding: 2%;
-    margin: auto;
-    border: 3px bold black;
-    border-radius: 10%;
-    
+  cursor: pointer;
+  background-color: darkgrey;
+  color: #3a0ba2;
+  padding: 2%;
+  margin: auto;
+  border: 3px bold black;
+  border-radius: 10%;
 }
 
-a:link { text-decoration: none; }
+a:link {
+  text-decoration: none;
+}
 
+a:visited {
+  text-decoration: none;
+}
 
-a:visited { text-decoration: none; }
-
-.primary-navigation{
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    
-        
+.primary-navigation {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .primary-navigation a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .primary-navigation a > [aria-hidden="true"] {
-    font-weight: 700;
-    margin-inline-end: 0.75em;
+  font-weight: 700;
+  margin-inline-end: 0.75em;
 }
-.primary-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    background-color: white;
-    
-    z-index: 100;
-}
-   
-.flex{
-    display: flex;
-    gap: var(--gap, 1rem);
-    
+.primary-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: white;
+
+  z-index: 100;
 }
 
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
 
-.logo{
-    width: 175px;;
-    margin-top: 0px;
-    margin-left: 20%;
-    
-    margin: auto;
-    
+.logo {
+  width: 175px;
+  margin-top: 0px;
+  margin-left: 20%;
+
+  margin: auto;
 }
-#nav{
-    
-    display: flex;
-    justify-content:right;
-    flex-direction: row;
-    
-    
+#nav {
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
 }
-.banner{
-    margin: 0;
-    max-width: 100vw
+.banner {
+  margin: 0;
+  max-width: 100vw;
 }
 
 .container {
-    display:flex;
-    justify-content:center;
-    flex-direction: row;
-    margin-bottom: auto;
-    margin-top: auto;
-    height: 100%;
-    position: relative;
-    
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 100%;
+  position: relative;
 }
 .container2 {
-    display: flex;
-    
-    justify-content:center;
-    flex-direction: column;
-    
-    /* height: 100%; */
-    max-width: 100vw;
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+
+  /* height: 100%; */
+  max-width: 100vw;
 }
-.linkbodyfat {
-    font-size: 30px;
+.linkBodyFat {
+  font-size: 30px;
 }
 
 #div1 {
-    
-    position: relative;
-    background-color: white;
-    
-    
-    color: #3a0ba2;
-    justify-content:space-evenly
-    flex-direction: row;
-    margin-top: 3px;
-    
-    
+  position: relative;
+  background-color: white;
+
+  color: #3a0ba2;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 3px;
 }
-.welcMess{
-    
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-    padding: 1%;
-    
+.welcMess {
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  padding: 1%;
 }
-#welcome{
-    
-    position: relative;
-    
+#welcome {
+  position: relative;
 }
 
-#intro{
-    flex-shrink: 5;
-    
-    background-color: white;
-    padding-right: 1%;
-    width: 400px; 
-position: relative;
-   
-}
-#calc{
-    
-    
-    width: 600px;  
-    margin-top: 30%;
-    margin-bottom: 5%;
-    
-  
-}
+#intro {
+  flex-shrink: 5;
 
+  background-color: white;
+  padding-right: 1%;
+  width: 400px;
+  position: relative;
+}
+#calc {
+  width: 600px;
+  margin-top: 30%;
+  margin-bottom: 5%;
+}
 
 #div3 {
-    display: flex;
-    /* flex-direction:column; */
-    justify-content: center;
-    
-    
-    margin-top: auto;
-    /* border: 1px solid black; */
-    background-color: lightgray;
-    /* padding: 1%; */
-    
-    
-    /* box-shadow: 3px 3px 10px darkgray ; */
-    
-    
+  display: flex;
+  /* flex-direction:column; */
+  justify-content: center;
+
+  margin-top: auto;
+  /* border: 1px solid black; */
+  background-color: lightgray;
+  /* padding: 1%; */
+
+  /* box-shadow: 3px 3px 10px darkgray ; */
 }
 .userResults {
-    width: 100vw;
-    display: flex;
-    justify-content:space-around;
-    flex-direction: row;
-    padding: 1%;
-    font-size: 52px;
-    font-weight:bolder;
-    font-family: 'Fredoka One', cursive;
-
-
-    
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 1%;
+  font-size: 52px;
+  font-weight: bolder;
+  font-family: "Fredoka One", cursive;
 }
 .userName {
-    display: flex;
-    
-    color: grey;
-    font-family: 'Fredoka One', cursive;
-    font-size: 36px;
-    
-}
-span{
-    font-family: 'Fredoka One', cursive;
-    color: #3a0ba2;
-}
-.finaleCalories{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    color: #2a2e30;
-    font-family: 'Fredoka One', cursive;
-    font-size: 72px;
+  display: flex;
 
+  color: grey;
+  font-family: "Fredoka One", cursive;
+  font-size: 36px;
+}
+span {
+  font-family: "Fredoka One", cursive;
+  color: #3a0ba2;
+}
+.finaleCalories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #2a2e30;
+  font-family: "Fredoka One", cursive;
+  font-size: 72px;
 }
 .protienGrams {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #3a0ba2;
-    font-family: 'Fredoka One', cursive;
-    font-size: 72px;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3a0ba2;
+  font-family: "Fredoka One", cursive;
+  font-size: 72px;
 }
 .fatGrams {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #ff9e1d;
-    font-family: 'Fredoka One', cursive;
-    font-size: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ff9e1d;
+  font-family: "Fredoka One", cursive;
+  font-size: 72px;
 }
 .carbGrams {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #e71d37;
-    font-family: 'Fredoka One', cursive;
-    font-size: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e71d37;
+  font-family: "Fredoka One", cursive;
+  font-size: 72px;
 }
 .resultDiv {
-    width: 100vh;
+  width: 100vh;
 }
 
-.bodyfatbanner{
-    margin: 0;
-    max-width: 100vw
+.bodyfatbanner {
+  margin: 0;
+  max-width: 100vw;
 }
 
 .bodyfatchart {
-    display: flex;
-    justify-content:space-evenly;
-    margin: 3%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3%;
 }
 
-.footer{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 3%;
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3%;
 }
 
-@media (max-width: 600px){
-    .container{
-        flex-direction: column;
-
-    }
-    .bodyfatchart{
-        flex-direction: column;
-        
-
-    }
-    .bodyfatbanner{
-        flex-direction: column;
-        max-width: 100vw;
-    }
-    .resultDiv{
-        flex-direction: column;
-    }
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .bodyfatchart {
+    flex-direction: column;
+  }
+  .bodyfatbanner {
+    flex-direction: column;
+    max-width: 100vw;
+  }
+  .resultDiv {
+    flex-direction: column;
+  }
 }
-
-
 
 input {
-    
-    
-    border: 2px black bold;
-    max-height: 60px;
-    max-width: 200px;
-   
-    font-size: 42px;
-    
+  border: 2px black bold;
+  max-height: 60px;
+  max-width: 200px;
+
+  font-size: 42px;
 }
 
-select{
-    
-    border: 2px black bold;
-    height: 60px;
-    width: 200px;
-    font-size: 32px;
-    
+select {
+  border: 2px black bold;
+  height: 60px;
+  width: 200px;
+  font-size: 32px;
 }
-
 
 .selectOne {
-    min-width: 26vw;
-   
+  min-width: 26vw;
 }
 
 html {
-    /* min-width: 550px;
+  /* min-width: 550px;
     position: relative; */
-    scroll-behavior: smooth;
-    
-    }
-
-
+  scroll-behavior: smooth;
+}
 
 /* Submit Button-----------------------------------------------*/
 
 .container3 {
-    /* height: 100%; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  /* height: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.buttons{
-    display: flex;
-    flex-direction: column;
+.buttons {
+  display: flex;
+  flex-direction: column;
 }
 
 .btn {
-    text-decoration: none;
-    padding: 20px 50px;
-    font-size: 1.25rem;
-    position: relative;
-    margin: 32px;
+  text-decoration: none;
+  padding: 20px 50px;
+  font-size: 1.25rem;
+  position: relative;
+  margin: 32px;
 }
 .startOverBtn {
-    text-decoration: none;
-    padding: 20px 50px;
-    font-size: 1.25rem;
-    position: relative;
-    margin: 32px;
-    background: #3a0ba2;
-    color: white;
-    border-radius: 30px;
-    transition: transform 0.3s ease;
+  text-decoration: none;
+  padding: 20px 50px;
+  font-size: 1.25rem;
+  position: relative;
+  margin: 32px;
+  background: #3a0ba2;
+  color: white;
+  border-radius: 30px;
+  transition: transform 0.3s ease;
 }
 
 /* Button 1*/
 
- .btn-1 {
-    background: #3a0ba2;
-    color: white;
-    border-radius: 30px;
-    transition: transform 0.3s ease;
+.btn-1 {
+  background: #3a0ba2;
+  color: white;
+  border-radius: 30px;
+  transition: transform 0.3s ease;
 }
 
-.btn-1::after, .btn-1::before {
-    content: "";
-    position: absolute;
-    opacity: 0.3;
-    background: #3a0ba2;
-    border-radius: inherit;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: transform 0.3s ease;
+.btn-1::after,
+.btn-1::before {
+  content: "";
+  position: absolute;
+  opacity: 0.3;
+  background: #3a0ba2;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;
 }
-.startOverBtn::after, .btn-1::before {
-    content: "";
-    position: absolute;
-    opacity: 0.3;
-    background: #3a0ba2;
-    border-radius: inherit;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: transform 0.3s ease;
+.startOverBtn::after,
+.btn-1::before {
+  content: "";
+  position: absolute;
+  opacity: 0.3;
+  background: #3a0ba2;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;
 }
 
 .btn-1:hover {
-    transform: translate(-12px, -12px);
+  transform: translate(-12px, -12px);
 }
 
 .btn-1:hover::after {
-    transform: translate(6px,6px);
+  transform: translate(6px, 6px);
 }
 .btn-1:hover::before {
-    transform: translate(12px,12px);
+  transform: translate(12px, 12px);
 }
 .startOverBtn:hover {
-    transform: translate(-12px, -12px);
+  transform: translate(-12px, -12px);
 }
 
 .startOverBtn:hover::after {
-    transform: translate(6px,6px);
+  transform: translate(6px, 6px);
 }
 .startOverBtn:hover::before {
-    transform: translate(12px,12px);
+  transform: translate(12px, 12px);
 }
