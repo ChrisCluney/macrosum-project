@@ -34,7 +34,7 @@ console.log(activity);
 const resultSection = document.getElementById("resultDiv");
 
 const deleteItem = (id) => {
-  axios.delete(`http://localhost:5000/macros/${id}`).then((res) => {
+  axios.delete(`/macros/${id}`).then((res) => {
     displayItems(res.data);
     console.log(res.data);
   });
@@ -91,7 +91,7 @@ macroForm.addEventListener("submit", (e) => {
     activity: activity.value,
   };
   console.log(newItem);
-  axios.post("http://localhost:5000/macros", newItem).then((res) => {
+  axios.post("/macros", newItem).then((res) => {
     displayItems(res.data);
     console.log(res.data);
   });
