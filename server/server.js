@@ -14,6 +14,6 @@ const port = 5000;
 
 app.post("/macros", ctrl.addItem);
 
-app.use(express.static(path.join(__dirname, "/../public")));
+// app.use(express.static(path.join(__dirname, "../public")));
 
 app.listen(port, () => console.log("Server running on 5000"));
