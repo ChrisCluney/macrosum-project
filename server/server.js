@@ -10,7 +10,7 @@ app.use(express.json()); // When we want to be able to accept JSON.
 const axios = require("axios");
 const ctrl = require("./controller");
 
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 app.post("/macros", ctrl.addItem);
 
