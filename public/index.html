@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Fredoka&family=Loved+by+the+King&family=Montserrat&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Fredoka&family=Fredoka+One&family=Loved+by+the+King&family=Montserrat&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>MacroSum</title>
+</head>
+
+<body>
+    <header class="primary-header flex">
+        <div>
+            <a href="index.html"><img src="pics/MACROSUM.png" class="logo" alt="main logo"> </a><br>
+            <div id="nav">
+                <nav>
+                    <ul id="primary-navigation" class="primary-navigation flex">
+                        <li class="active"><a href="bodyfat.html">BODY FAT CHARTS</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <Main>
+
+
+
+        <div><img src="pics/tracking_made_fun_2.png" class="banner" alt="tracking made fun"></div>
+
+
+
+
+        <section class="container">
+            <div class="welcMess">
+                <div id="welcome">
+                    <h1>Welcome</h1>
+                </div>
+                <div id="intro">
+
+                    <p>A free website for you to get your calories and custom macros breakdown. If you are
+                        starting a
+                        lifestyle change
+                        or trying to find a better alternative to other pages and apps, you came to the right place! All
+                        we
+                        need
+                        is
+                        some information about
+                        you and you'll get stared in minutes.
+                    </p>
+
+                </div>
+            </div>
+            <div>
+                <img src="pics/smartmockups.png" alt="picture of calculator" id="calc" />
+            </div>
+        </section>
+
+
+
+
+
+
+        <section class="container2">
+            <div id="div3">
+
+                <form id="macroForm">
+                    <h3>What is your first name?</h3><br>
+                    <label for="fname"></label><br>
+                    <input type="text" id="fname" name="fname" value="" class="selectOne"><br>
+
+
+                    <h3>Gender</h3><br>
+                    <input type="radio" id="male" name="gender" value="5" checked>
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="-161">
+                    <label for="female">Female</label><br>
+
+                    <h3>What is your age?</h3><br>
+                    <label for="age"></label><br>
+                    <input type="text" id="ageInput" name="age" value=""><br>
+
+                    <h3>Height in inches</h3><br>
+                    <label for="height"></label><br>
+                    <input type="text" id="heightInput" name="height" value=""><br>
+
+                    <h3>Current weight</h3><br>
+                    <label for="weight"></label><br>
+                    <input type="text" id="weightInput" name="weight" value=""><br>
+
+
+                    <h3>Goal weight</h3><br>
+                    <label for="goalWeight"></label><br>
+                    <input type="text" id="goalWeightInput" name="goalWeight" value=""><br>
+
+                    <h3>Are you trying to lose weight, maintain weight, or gain weight?</h3><br>
+                    <input type="radio" id="loseweight" name="wantsGoal" value="-500" checked>
+                    <label for="male">Lose Weight</label><br>
+                    <input type="radio" id="maintainweight" name="wantsGoal" value="0">
+                    <label for="female">maintain</label><br>
+                    <input type="radio" id="gainweight" name="wantsGoal" value="+500">
+                    <label for="female">Gain</label><br>
+
+                    <h3>What is your estimated body fat %?</h3><br>
+                    <p class="activityList">To see a body fat chart click <a href="bodyfat.html" target="popup"
+                            class="linkbodyfat"
+                            onclick="window.open('bodyfat.html','popup','width=1700,height=1000'); return false;">
+                            here
+                        </a></p>
+                    <label for="bdFat"></label><br>
+                    <input type="text" id="bdFatInput" name="bdFat" value=""><br>
+
+
+
+                    <h3>Level of activity</h3><br>
+
+                    <h3>Choose one of these options:</h3>
+                    <p>
+                    <ul>
+                        <li class="activityList">Sedentary - Not active, works at a desk</li>
+                        <li class="activityList">Light Activity - Works out 1-3 times a week</li>
+                        <li class="activityList">Moderate Activity - Works out 3-5 times a week</li>
+                        <li class="activityList">Very Active - Works out 6-7 times a week</li>
+                        <li class="activityList">Athlete - A high performing beast</li>
+                    </ul>
+                    </p>
+
+                    <select name="activity" id="activity" class="selectOne">
+                        <option value="1.2" name="sedentary">Sedentary</option>
+                        <option value="1.375" name="lightActivity">Light Activity</option>
+                        <option value="1.55" name="moderatelyActivity" selected>Moderate Activity</option>
+                        <option value="1.725" name="veryActive">Very Active</option>
+                        <option value="1.90" name="Athlete">Athlete</option>
+
+
+
+                    </select>
+
+                    <br><br>
+                    <div class="container3">
+                        <div class="buttons">
+                            <input type="submit" value="Submit" class="btn btn-1" id="btn">
+                        </div>
+                    </div>
+                    <br><br>
+                </form>
+
+                <br><br>
+
+
+
+            </div>
+
+
+
+        </section>
+        <section id="resultDiv">
+        </section>
+
+
+
+
+
+    </Main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
