@@ -3,6 +3,7 @@ let globalId = 0;
 
 module.exports = {
   addItem: (req, res) => {
+    console.log(req);
     const {
       fname,
       gender,

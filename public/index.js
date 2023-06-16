@@ -91,7 +91,13 @@ macroForm.addEventListener("submit", (e) => {
     activity: activity.value,
   };
   console.log(newItem);
+  // axios({
+  //   method: "post",
+  //   url: "/macros",
+  //   data: newItem,
+  // });
   axios.post("/macros", newItem).then((res) => {
+    console.log(res);
     displayItems(res.data);
     console.log(res.data);
   });
